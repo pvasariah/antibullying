@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+.fimanager:before {
+    display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.flaticon-001-justice:before { content: "\f100"; }
+.flaticon-002-blocking:before { content: "\f101"; }
+.flaticon-003-bully:before { content: "\f102"; }
+.flaticon-004-censor:before { content: "\f103"; }
+.flaticon-005-moral:before { content: "\f104"; }
+.flaticon-006-question:before { content: "\f105"; }
+.flaticon-007-judge:before { content: "\f106"; }
+.flaticon-008-cyber-bullying:before { content: "\f107"; }
+.flaticon-009-hate:before { content: "\f108"; }
+.flaticon-010-frustration:before { content: "\f109"; }
+.flaticon-011-cyber-attack:before { content: "\f10a"; }
+.flaticon-012-family:before { content: "\f10b"; }
+.flaticon-013-angry:before { content: "\f10c"; }
+.flaticon-014-gossip:before { content: "\f10d"; }
+.flaticon-015-hacker:before { content: "\f10e"; }
+.flaticon-016-dislike:before { content: "\f10f"; }
+.flaticon-017-scam:before { content: "\f110"; }
+.flaticon-018-insomnia:before { content: "\f111"; }
+.flaticon-019-justice:before { content: "\f112"; }
+.flaticon-020-offensive:before { content: "\f113"; }
+.flaticon-021-minority:before { content: "\f114"; }
+.flaticon-022-avoid:before { content: "\f115"; }
+.flaticon-023-sadness:before { content: "\f116"; }
+.flaticon-024-chat:before { content: "\f117"; }
+.flaticon-025-sexting:before { content: "\f118"; }
+.flaticon-026-message:before { content: "\f119"; }
+.flaticon-027-stop-bullying:before { content: "\f11a"; }
+.flaticon-028-suicide:before { content: "\f11b"; }
+.flaticon-029-decision:before { content: "\f11c"; }
+.flaticon-030-victim:before { content: "\f11d"; }
+
+$font-Flaticon-001-justice: "\f100";
+$font-Flaticon-002-blocking: "\f101";
+$font-Flaticon-003-bully: "\f102";
+$font-Flaticon-004-censor: "\f103";
+$font-Flaticon-005-moral: "\f104";
+$font-Flaticon-006-question: "\f105";
+$font-Flaticon-007-judge: "\f106";
+$font-Flaticon-008-cyber-bullying: "\f107";
+$font-Flaticon-009-hate: "\f108";
+$font-Flaticon-010-frustration: "\f109";
+$font-Flaticon-011-cyber-attack: "\f10a";
+$font-Flaticon-012-family: "\f10b";
+$font-Flaticon-013-angry: "\f10c";
+$font-Flaticon-014-gossip: "\f10d";
+$font-Flaticon-015-hacker: "\f10e";
+$font-Flaticon-016-dislike: "\f10f";
+$font-Flaticon-017-scam: "\f110";
+$font-Flaticon-018-insomnia: "\f111";
+$font-Flaticon-019-justice: "\f112";
+$font-Flaticon-020-offensive: "\f113";
+$font-Flaticon-021-minority: "\f114";
+$font-Flaticon-022-avoid: "\f115";
+$font-Flaticon-023-sadness: "\f116";
+$font-Flaticon-024-chat: "\f117";
+$font-Flaticon-025-sexting: "\f118";
+$font-Flaticon-026-message: "\f119";
+$font-Flaticon-027-stop-bullying: "\f11a";
+$font-Flaticon-028-suicide: "\f11b";
+$font-Flaticon-029-decision: "\f11c";
+$font-Flaticon-030-victim: "\f11d";
